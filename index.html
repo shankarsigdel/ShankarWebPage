@@ -10,84 +10,151 @@
 </head>
 
 <body>
-
     <main>
-        <!-- ***********************  ABOUT / PROFILE  *********************** -->
         <header>
-            <h1>Your Name</h1>
-            <h2>Job title or tagline</h2>
+            <!-- ***********************  ABOUT / PROFILE PART 1  *********************** -->
+            <section class="profileone">
+                <div class="content-wrap">
+                    <h1>Shankar Sigdel</h1>
+                    <h2>Software Engineer</h2>
+                </div>
+            </section>
+            <!-- ***********************  ABOUT / PROFILE PART 2  *********************** -->
+            <section>
+                <div class="content-wrap">
+                    <h4>About Me</h4>
+                    <p>Hi, My Name is Shankar Sigdel. I have recently completed Software Engineering Technician program
+                        at
+                        Centennial College.
+                        From this program i learned various programming languages and tools. In addition, I have
+                        Completed
+                        University Degree in
+                        Humanities and Social Sciences Major in English and Sociology/Anthropology. Given below are
+                        the details:</p>
 
-            <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque
-                scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit
-                ante.</p>
-            <p>Add another paragraph if needed.</p>
+                    <p>I have developed software engineering concepts from Centennial College. During my learning
+                        period,
+                        I have developed Concepts on Agile and while working on the group projects. during such as
+                        Agile,
+                        SDLC
+                        models, Agile Project Management
+                        Concepts. I have also developed multiple projects using JavaScript, Node.js, HTML, CSS, C#, SQL,
+                        MongoDB
+                        and other
+                        tools. Additionally, I have also completed some investment management courses and certifications
+                        in
+                        the
+                        past.</p>
+                </div>
+            </section>
         </header>
 
         <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-        <section>
-            <h2>Featured Projects</h2>
-            <p>View selected projects below. More information can be found at <a
-                    href="http://christinatruong.com">christinatruong.com</a>.</p>
+        <section class="projects">
+            <div class="content-wrap divider">
+                <h2>Featured Projects</h2>
+                <p>View selected projects below. More information can be found at <a
+                        href="http://christinatruong.com">christinatruong.com</a>.</p>
 
-            <!-- Copy the whole <section> block to add more projects. -->
-            <section>
-                <h3>Project Name</h3>
-                <img src="project-thumbnail.png" alt="description of image">
-                <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-                <a href="#" target="_blank">View project / case study</a>
-            </section>
+                <!-- Copy the whole <section> block to add more projects. -->
+
+                <!-- Project 1 -->
+                <section class="project-item">
+                    <img src="./Assets/images/slotmachine.png" alt="description of image">
+                    <h3>Slot Machine</h3>
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.
+                    </p>
+                    <a class="btn" href="#" target="_blank">View project / case study</a>
+                </section>
+                <!-- Project 2 -->
+                <section class="project-item">
+                    <img src="./Assets/images/diceroll.png" alt="description of image">
+                    <h3>Roll The Dice</h3>
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.
+                    </p>
+                    <a class="btn" href="#" target="_blank">View project / case study</a>
+                </section>
+            </div>
             <!-- End of Project block. -->
         </section>
 
         <!-- ***********************  WORK EXPERIENCE  *********************** -->
-        <section>
-            <h2>Work Experience</h2>
-            <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.
-            </p>
+        <section class="work-experience">
+            <div class="content-wrap item-details divider">
+                <h2>Work Experience</h2>
+                <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being
+                    used.
+                </p>
+                <!-- Copy this whole <section> block to add more jobs. -->
 
-            <!-- Copy this whole <section> block to add more jobs. -->
-            <section>
-                <h3>Job title</h3>
-                <p>Company Name</p>
-                <p>Date at job</p>
-                <p>Job summary goes here. Add as many paragraphs as you need.</p>
-                <p>Optional list:</p>
-                <ul>
-                    <li>Delete this list if you don't need it.</li>
-                    <li>Created...</li>
-                    <li>Lead...</li>
-                    <li>Responsible for...</li>
-                </ul>
-            </section>
+                <!-- Job 1. -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Higher Education Reform Project - Coordinator</h3>
+                        <p>Jana Bhawana Campus</p>
+                        <p>2016/01/01 - 2018/01/01</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>Delete this list if you don't need it.</li>
+                            <li>Created...</li>
+                            <li>Lead...</li>
+                            <li>Responsible for...</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Add Job 2. -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Job title</h3>
+                        <p>Company Name</p>
+                        <p>Date at job</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>Delete this list if you don't need it.</li>
+                            <li>Created...</li>
+                            <li>Lead...</li>
+                            <li>Responsible for...</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
             <!-- End of Job block. -->
         </section>
 
         <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-        <section>
-            <h2>Education</h2>
+        <section class="education">
+            <div class="content-wrap item-details">
+                <h2>Education</h2>
 
-            <!-- Copy this whole <section> block to add more schools. -->
-            <section>
-                <h3>School name - City</h3>
-                <p>Designation received or program name, year attended</p>
-                <p>Summary or accomplishments.</p>
-            </section>
-            <!-- End of School block. -->
+                <!-- Copy this whole <section> block to add more schools. -->
+                <section>
+                    <h3>School name - City</h3>
+                    <p>Designation received or program name, year attended</p>
+                    <p>Summary or accomplishments.</p>
+                </section>
+                <!-- End of School block. -->
+            </div>
         </section>
 
         <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
         <footer>
-            <h2>Let's Keep in Touch!</h2>
-
-            <!-- Social media and contact links. Add or remove any networks. -->
-            <ul>
-                <li><a href="mailto:email@example.com">email@example.com</a></li>
-                <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
-                <li><a href="#" target="_blank">LinkedIn</a></li>
-                <li><a href="#" target="_blank">Facebook</a></li>
-            </ul>
+            <div class="content-wrap">
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <h2>Let's Keep in Touch!</h2>
+                <ul class="contact-list">
+                    <li><a href="mailto:email@example.com">email@example.com</a></li>
+                    <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
         </footer>
     </main>
 
