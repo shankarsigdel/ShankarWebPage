@@ -66,6 +66,21 @@ h3{
 .divider > section:last-of-type{
     border-bottom: none;
 }
+/*Nav Bar Section*/
+.navbar {
+    background: #343434;
+    color: #F7FFF7;
+    position: sticky;
+    top: 0;
+}
+.navbar .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
 
 /*Profileone*/
 .profileone {
@@ -77,7 +92,6 @@ h3{
     color:darkblue;
     margin-bottom: 50px;
     text-align: center;
-
 }
 /*Profile*/
 header{
@@ -90,7 +104,6 @@ header{
 .projects{
     background: #F7FFF7;
 }
-
 .projects a {
     color: #2F3061;
 }
@@ -145,6 +158,7 @@ footer{
     padding: 15px;
     display: inline-block;
 }
+
 /*Responsive */
 @media screen and(min-width:750px) {
     header, footer{
