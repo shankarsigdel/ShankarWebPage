@@ -11,9 +11,27 @@
 
 <body>
     <main>
+        <!-- ***********************  Nav Bar  *********************** -->
+        <section class="navbar">
+            <!--Main Nav Bar Section-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="content-wrap">
+                    <ul class="contact-list">
+                        <li><a class="btn" href="#"><i class="far fa-user-circle"></i> HOME</a></li>
+                        <li><a class="btn" href="#profile1"><i class="far fa-user-circle"></i> About Me</a></li>
+                        <li><a class="btn" href="#myprojects"><i class="far fa-user-circle"></i> Projects</a></li>
+                        <li><a class="btn" href="#myworkexperience"><i class="far fa-user-circle"></i> Experience</a>
+                        </li>
+                        <li><a class="btn" href="#myeducation"><i class="far fa-user-circle"></i> Education</a></li>
+                        <li><a class="btn" href="#myfooter"><i class="far fa-user-circle"></i> contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
         <header>
             <!-- ***********************  ABOUT / PROFILE PART 1  *********************** -->
-            <section class="profileone">
+            <section class="profileone" id="profile1">
                 <div class="content-wrap">
                     <h1>Shankar Sigdel</h1>
                     <h2>Software Engineer</h2>
@@ -21,7 +39,7 @@
             </section>
             <!-- ***********************  ABOUT / PROFILE PART 2  *********************** -->
             <section>
-                <div class="content-wrap">
+                <div class="content-wrap" id="profile2">
                     <h4>About Me</h4>
                     <p>Hi, My Name is Shankar Sigdel. I have recently completed Software Engineering Technician program
                         at
@@ -50,7 +68,7 @@
         </header>
 
         <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-        <section class="projects">
+        <section class="projects" id="myprojects">
             <div class="content-wrap divider">
                 <h2>Featured Projects</h2>
                 <p>View selected projects below. More information can be found at <a
@@ -74,12 +92,28 @@
                     </p>
                     <a class="btn" href="#" target="_blank">View project / case study</a>
                 </section>
+                <!-- Project 3 -->
+                <section class="project-item">
+                    <img src="./Assets/images/diceroll.png" alt="description of image">
+                    <h3>Roll The Dice</h3>
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.
+                    </p>
+                    <a class="btn" href="#" target="_blank">View project / case study</a>
+                </section>
+                <!-- Project 4 -->
+                <section class="project-item">
+                    <img src="./Assets/images/diceroll.png" alt="description of image">
+                    <h3>Roll The Dice</h3>
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.
+                    </p>
+                    <a class="btn" href="#" target="_blank">View project / case study</a>
+                </section>
             </div>
             <!-- End of Project block. -->
         </section>
 
         <!-- ***********************  WORK EXPERIENCE  *********************** -->
-        <section class="work-experience">
+        <section class="work-experience" id="myworkexperience">
             <div class="content-wrap item-details divider">
                 <h2>Work Experience</h2>
                 <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being
@@ -123,16 +157,60 @@
                         </ul>
                     </div>
                 </section>
+                <!-- Add Job 3. -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Job title</h3>
+                        <p>Company Name</p>
+                        <p>Date at job</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>Delete this list if you don't need it.</li>
+                            <li>Created...</li>
+                            <li>Lead...</li>
+                            <li>Responsible for...</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Add Job 4. -->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Job title</h3>
+                        <p>Company Name</p>
+                        <p>Date at job</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                        <p>Optional list:</p>
+                        <ul>
+                            <li>Delete this list if you don't need it.</li>
+                            <li>Created...</li>
+                            <li>Lead...</li>
+                            <li>Responsible for...</li>
+                        </ul>
+                    </div>
+                </section>
             </div>
             <!-- End of Job block. -->
         </section>
 
         <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-        <section class="education">
+        <section class="education" id="myeducation">
             <div class="content-wrap item-details">
                 <h2>Education</h2>
 
                 <!-- Copy this whole <section> block to add more schools. -->
+
+                <!-- Education 1 -->
+                <section>
+                    <h3>School name - City</h3>
+                    <p>Designation received or program name, year attended</p>
+                    <p>Summary or accomplishments.</p>
+                </section>
+                <!-- Education 2 -->
                 <section>
                     <h3>School name - City</h3>
                     <p>Designation received or program name, year attended</p>
@@ -144,14 +222,15 @@
 
         <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
         <footer>
-            <div class="content-wrap">
+            <div class="content-wrap" id="myfooter">
                 <!-- Social media and contact links. Add or remove any networks. -->
-                <h2>Let's Keep in Touch!</h2>
+                <h2>Stay Connected!</h2>
                 <ul class="contact-list">
-                    <li><a href="mailto:email@example.com">email@example.com</a></li>
+                    <li><a href="mailto:ssigdel2@my.centennialcollege.ca">ssigdel2@my.centennialcollege.ca</a></li>
                     <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
                     <li><a href="#" target="_blank">Twitter</a></li>
-                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/shankar-sigdel-3421b81b7/" target="_blank">LinkedIn</a>
+                    </li>
                     <li><a href="#" target="_blank">Facebook</a></li>
                 </ul>
             </div>
