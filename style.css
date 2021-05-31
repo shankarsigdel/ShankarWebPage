@@ -170,6 +170,32 @@ footer{
     display: inline-block;
 }
 
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 85%;
+    left: 15%;
+    max-width: 60px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(47, 241, 21);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+
+/*Top Button On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+/*Smoothly scroll behaviour*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*Responsive */
 @media screen and(min-width:750px) {
     header, footer{
@@ -197,33 +223,47 @@ footer{
     }
 }
 
-/*
-img{
-    width: 300px;
+/************************************************/
+/* Style the navigation menu */
+* {
+    box-sizing: border-box
 }
-body{
-    background: lightblue;
-    margin-left: 100px;
-    margin-right: 100px;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    color: blue;
-    font-weight: bold;
+
+.navbar {
+    width: 100%;
+    background-color: rgb(184, 181, 51);
+    overflow: auto;
 }
-header{
-     
-}
-footer{
-    background: rgb(95, 207, 164);
-}
-.projects{
-    background: rgb(26, 100, 122);
-}
-.name{
-    background: rgb(46, 189, 236);
-    background-image: url("./Assets/images/plant1.jpg");
-    background-color: #cccccc;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%;
+    /* Four links of equal widths */
     text-align: center;
-}*/
+}
+
+.navbar a:hover {
+    background-color: rgb(35, 31, 238);
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+/****************************************************/
