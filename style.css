@@ -11,11 +11,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 img{
-    width: 300px;
+    width: 200px;
 }
 a{
     color: #FFE66D;
@@ -41,7 +41,7 @@ h2 {
     font-size: 45px;
 }
 h1, h2{
-    font-family: 'Caveat', cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     margin: 0;
 }
@@ -85,7 +85,7 @@ h3{
 /*Profileone*/
 .profileone {
     background: #66e8ec;
-    background-image: url("./Assets/images/plant.jpg");
+    background-image: url("./Assets/images/homeicon.jpg");
     padding: 100px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -100,9 +100,13 @@ header{
     margin-bottom: 50px;
 }
 
+
 /*Projects*/
 .projects{
     background: #F7FFF7;
+    background-image: url("./Assets/images/projects.jpg");
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
 }
 .projects a {
     color: #2F3061;
@@ -124,6 +128,13 @@ header{
 
 .project-item h3 {
     margin-top: 0;
+}
+.project-item img {
+    float: left;
+    margin: 5px;
+}
+.project-item h3 + p{
+    color: darkblue;
 }
 
 /*Work Experience*/
